@@ -1,0 +1,18 @@
+Na maioria dos cenários reais, os dados não estarão convenientemente formatados como um dicionário Python.
+Eles geralmente vêm de ficheiros externos, como CSV (Comma Separated Values), Excel, bases de dados, ou APIs.
+O Pandas oferece funções robustas para ler dados de diversas fontes e carregá-los diretamente para um DataFrame.
+O formato CSV é um dos mais comuns para o intercâmbio de dados devido à sua simplicidade.
+Cada linha no ficheiro CSV corresponde a uma linha no DataFrame, e os valores em cada linha são separados por vírgulas (ou outro delimitador), correspondendo às colunas.
+
+Usa-se o método .read_csv('nome_do_arquivo.csv') para carregar os dados do arquivo para o Data Frame.
+
+Após carregar os dados, é importante realizar uma inspeção inicial para entender a sua estrutura e identificar potenciais problemas.
+Métodos como .head(), .info(), .describe() e .isnull().sum() são importantes nesta fase.
+
+A função .head() permite visualizar as primeiras linhas N do DataFrame, oferecendo uma visão rápida e inicial da estrutura e do conteúdo dos dados.
+
+A função .info() fornece um resumo conciso do DataFrame, incluindo o tipo de dado de cada coluna e a contagem de valores não nulos.
+
+A função .describe() gera estatísticas descritivas, como média, desvio padrão, mínimo, máximo e quartis, para colunas numéricas.
+
+A função .isnull().sum() conta o número de valores nulos em cada coluna, um passo importante para a limpeza de dados.
