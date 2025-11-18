@@ -1,0 +1,16 @@
+Dentro do scikit-learn, encontramos dois tipos fundamentais de modelos que são cruciais para resolver problemas:
+
+MODELOS DE CLASSIFICAÇÃO:
+
+São empregados quando o objetivo é prever uma categoria ou um rótulo discreto. 
+
+Exemplos: prever se um e-mail é "spam" ou "não spam", se uma transação financeira é "fraudulenta" ou "legítima",
+ou se um paciente irá "comparecer" ou "faltar" à consulta. 
+A saída é uma de um conjunto finito de classes.
+
+MODELOS DE REGRESSÃO:
+
+São utilizados quando a previsão desejada é um valor numérico contínuo. 
+
+Exemplos: prever o preço de uma casa com base nas suas características, a temperatura de amanhã, ou o tempo de recuperação de um paciente.
+A saída é um número dentro de um intervalo contínuo.
